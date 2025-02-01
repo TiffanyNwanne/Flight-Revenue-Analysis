@@ -6,7 +6,7 @@
 
 The dataset for this analysis was extracted from a SQL database using the following query:
 
-![flight sql query.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/flight_sql_query.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/flight_sql_query.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/flight_sql_query.png)
 
 The query retrieves data from the `flight_revenue` table, groups it by `id`, and limits the output to 15 rows. The extracted data was then exported to a **CSV file**, which was later converted into an **Excel (.xlsx) file** for further analysis.
 
@@ -17,19 +17,19 @@ To ensure consistency and readability in the dataset, the following data cleanin
 1. **Standardizing Text Formatting:**
     - All text-based data (such as destination names) were formatted using the `UPPER()` and `PROPER()` functions to ensure uniform capitalization.
 
-![data cleaning 1.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/data_cleaning_1.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/data_cleaning_1.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/data_cleaning_1.png)
 
-1. **Removing Underscores:**
+2. **Removing Underscores:**
     - Column names that contained underscores were cleaned using the `SUBSTITUTE()` function to replace underscores with spaces.
 
-![data cleaning 2.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/data_cleaning_2.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/data_cleaning_2.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/data_cleaning_2.png)
 
-1. **Formatting for Presentation:**
+3. **Formatting for Presentation:**
 
 - All text was standardized to the **Calibri** font for readability.
 - The dataset was arranged into a presentable table format.
 
-![data cleaning 3.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/data_cleaning_3.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/data_cleaning_2.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/data_cleaning_2.png)
 
 ## **Calculating Key Performance Indicators (KPIs)**
 
@@ -39,9 +39,9 @@ After cleaning the data, the next step was to calculate the **Total Revenue** an
 
 To calculate the **total revenue per destination**, a new column was created using the **SUM function** to sum up revenue from different seating classes and cargo revenue.
 
-![total revenue.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/total_revenue.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/total_revenue.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/total_revenue.png)
 
-![total revenue 2.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/total_revenue_2.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/total_revenue_2.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/total_revenue_2.png)
 
 - This formula was then dragged down across all rows to apply it to the entire dataset.
 
@@ -58,11 +58,11 @@ To find the **destination with the highest revenue**, the following Excel functi
 
 This identified the destination that generated the highest revenue.
 
-![high rvenue des 1.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/high_rvenue_des_1.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/high_rvenue_des_1.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/high_rvenue_des_1.png)
 
-![high rvenue des 2.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/high_rvenue_des_2.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/high_rvenue_des_2.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/high_rvenue_des_2.png)
 
-![high rvenue des 3.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/high_rvenue_des_3.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/high_rvenue_des_3.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/high_rvenue_des_3.png)
 
 ---
 
@@ -70,11 +70,11 @@ This identified the destination that generated the highest revenue.
 
 Another sheet was created to analyze revenue based on different seating classes.
 
-![seating class 1.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/seating_class_1.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/seating_class_1.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/seating_class_1.png)
 
-![seating class 2.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/seating_class_2.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/seating_class_2.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/seating_class_2.png)
 
-![seating class 3.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/seating_class_3.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/seating_class_3.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/seating_class_3.png)
 
 - This sheet contained only the **destinations and revenues from First Class, Business Class, and Economy Class**, **excluding cargo revenue**.
 - The **SUM function** was used across the columns to calculate total revenue for each seating class:
@@ -86,7 +86,7 @@ Another sheet was created to analyze revenue based on different seating classes.
 
 After calculating the necessary KPIs, a new **summary table** was created containing the key values needed for visualization in **Tableau**.
 
-![new summary table.png](Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/new_summary_table.png)
+[![Preview Image](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/new_summary_table.png))](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/new_summary_table.png)
 
 This structured data was then imported into **Tableau** for visual representation.
 
