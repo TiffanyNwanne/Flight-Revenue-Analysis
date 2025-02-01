@@ -1,6 +1,6 @@
 # Flight Revenue Analysis Report
 
-![Preview Image]([Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/Flights_Revenue_Dashboard_.png](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/Flights_Revenue_Dashboard_.png))
+[![Preview Image]([Flight%20Revenue%20Analysis%20Report%2018c4799bb267808eb79ae64d3557d1ed/Flights_Revenue_Dashboard_.png](https://github.com/TiffanyNwanne/Flight-Revenue-Analysis/blob/main/images/Flights_Revenue_Dashboard_.png))
 
 # Data Extraction and Transformation
 
